@@ -3,7 +3,8 @@
 # 入出力
 a = int(input())
 b, c = map(int, input().split())
-s = input()
+l = list(map(int, input().split()))
+_ = input()
 
 # デバッグ用
 print("----------")
