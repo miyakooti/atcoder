@@ -9,6 +9,9 @@ _ = input()
 # デバッグ用
 print("----------")
 
+# uniqueなlist
+list(dict.fromkeys(l))
+
 
 # // 各桁の和を計算する関数
 def findSumOfDigits(n: int):
