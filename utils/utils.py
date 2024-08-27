@@ -4,7 +4,9 @@
 a = int(input())
 b, c = map(int, input().split())
 l = list(map(int, input().split()))
-_ = input()
+
+mochi = [int(input()) for i in range(n)]
+
 
 # デバッグ用
 print("----------")
