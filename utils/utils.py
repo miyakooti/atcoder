@@ -5,7 +5,7 @@ a = int(input())
 b, c = map(int, input().split())
 l = list(map(int, input().split()))
 
-mochi = [int(input()) for i in range(n)]
+matlix = [int(input()) for i in range(n)]
 
 
 # デバッグ用
