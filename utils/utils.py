@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 
 # 入出力
-a = int(input())
+N = int(input())
 b, c = map(int, input().split())
 l = list(map(int, input().split()))
 
-matlix = [int(input()) for i in range(n)]
+matlix = [list(map(int, input().split())) for _ in range(N)]
+
+
+mochi = [int(input()) for i in range(N)]
 
 
 # デバッグ用
